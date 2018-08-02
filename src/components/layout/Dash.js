@@ -1,6 +1,7 @@
 import React from 'react';
-import Expenditures from '../expenditures/Expenditures';
 import Bar from '../layout/Bar';
+import Expenditures from '../expenditures/Expenditures';
+import Charts from '../expenditures/Charts';
 
 export default() => {
   return (
@@ -11,5 +12,6 @@ export default() => {
       <div className="col-md-2">
         <Bar/>
       </div>
+      <Charts/>
     </div>);
 };

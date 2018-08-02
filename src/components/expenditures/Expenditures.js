@@ -35,7 +35,7 @@ class Expenditures extends Component {
         <div className="row">
           <div className="col-md-6">
             <h2>{' '}<i className="fas fa-credit-card"></i>
-              Expenditures {' '}
+              {' '}Expenditures
             </h2>
           </div>
           <div className="col-md-6">
@@ -70,6 +70,7 @@ class Expenditures extends Component {
                   </Link>
                 </td>
               </tr>))
+
             }
           </tbody>
         </table>
