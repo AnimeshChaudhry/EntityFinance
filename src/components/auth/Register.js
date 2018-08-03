@@ -17,11 +17,9 @@ class Login extends Component {
     const{firebase} = this.props;
     const {email, password} = this.state;
 
-    firebase.login({
-      email,
-      password
-    }).catch(err => alert('Incorrect Email or Password'));
-  }
+    //REGISTER WITH FIREBASE
+    firebase.createUser({email, password}).catch(err => alert('User already exists'));
+  };
 
   onChange = (e) => {
     this.setState({[e.target.name]: e.target.value})
@@ -36,7 +34,7 @@ class Login extends Component {
               <h1 className="text-center pb-4">
                 <span className="text-primary">
                   <i className="fas fa-lock"></i>{' '}
-                  Login
+                  Register
                 </span>
               </h1>
               <form onSubmit={this.onSubmit}>
@@ -48,7 +46,7 @@ class Login extends Component {
                   <label htmlFor="password">Password</label>
                   <input type="password" className="form-control" name="password" required value={this.state.password} onChange={this.onChange}/>
                 </div>
-                <input type="submit" value="Login" className="btn btn-primary btn-block"/>
+                <input type="submit" value="Register" className="btn btn-primary btn-block"/>
               </form>
             </div>
           </div>
