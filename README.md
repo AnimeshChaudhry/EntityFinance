@@ -21,9 +21,10 @@ Abdulrahman Alharbi
 2.This is a shared account experience
 3. After you log in you can add/delete/edit expenditures
 4. You can view the charts by clicking the charts red button
+5. You can logout and someone else can log in to add something to the family expenditures
 
 
-===========================================================================================================================
+=================================================================================================
 
 his project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
