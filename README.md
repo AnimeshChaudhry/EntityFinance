@@ -24,7 +24,7 @@ Abdulrahman Alharbi
 5. You can logout and someone else can log in to add something to the family expenditures
 
 
-=================================================================================================
+===============================================================================================
 
 his project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
