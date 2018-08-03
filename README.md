@@ -1,5 +1,5 @@
-# Readr
-get your read on
+# Entity Finance 
+finna
 
 ### How to run 
 1). ```git clone https://github.com/AnimeshChaudhry/EntityFinance``` <br>
