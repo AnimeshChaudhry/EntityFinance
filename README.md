@@ -1,6 +1,6 @@
 # Entity Finance 
 CPSC 473 Front end Web Dev Project 2 <br>
-Tools: HTML, CSS, React.js (Redux for state management), Chart.js, firebase (firestore from google)
+Tools: HTML, CSS, React.js (Redux for state management, jsx), Chart.js, firebase (firestore from google)
 
 ### How to run 
 1). ```git clone https://github.com/AnimeshChaudhry/EntityFinance``` <br>
