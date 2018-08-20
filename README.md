@@ -1,5 +1,5 @@
 # Entity Finance 
-finna
+CPSC 473 Front end Web Dev Project 2
 
 ### How to run 
 1). ```git clone https://github.com/AnimeshChaudhry/EntityFinance``` <br>
