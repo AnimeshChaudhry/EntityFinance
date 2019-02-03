@@ -1,5 +1,5 @@
 # Entity Finance 
-CPSC 473 Front end Web Dev Project 2 <br>
+CPSC 473 Front end Web Dev Project 2 , Personal Finance Manager<br>
 Tools: HTML, CSS, React.js (Redux for state management, jsx), Chart.js, firebase (firestore from google)
 
 ### How to run 
@@ -9,12 +9,6 @@ Tools: HTML, CSS, React.js (Redux for state management, jsx), Chart.js, firebase
 4). ```npm run ``` <br><br>
 
 Important: run ```npm install ```only when you first clone the repository.
-
-### Team members
-Animesh Chaudhry <br>
-Kevin Nguyen <br>
-Daniel Cherney <br>
-Abdulrahman Alharbi
 
 
 ### How To Use
